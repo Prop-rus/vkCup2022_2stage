@@ -2,7 +2,7 @@
    "engineId":"vk5",
    "engineFactory":"com.actionml.engines.ur.UREngine",
    "sparkConf":{
-      "master": "spark://10.115.15.197:7077",
+      "master": "",
       "spark.serializer":"org.apache.spark.serializer.KryoSerializer",
       "spark.kryo.registrator":"org.apache.mahout.sparkbindings.io.MahoutKryoRegistrator",
       "spark.kryo.referenceTracking":"false",
@@ -10,10 +10,10 @@
       "spark.executor.memory":"48g",
       "spark.driver.memory":"2g",
        "spark.memory.fraction":"0.2",
-       "spark.executor.memoryOverhead":"4096",
-      "spark.blockManager.port": "44010",
-      "spark.driver.port": "44020",
-      "spark.es.nodes": "aml-es.dev.recsys.movix.ru:9200",
+       "spark.executor.memoryOverhead":"",
+      "spark.blockManager.port": "",
+      "spark.driver.port": "",
+      "spark.es.nodes": "",
       "spark.es.index.auto.create":"true",
       "spark.es.nodes.wan.only":"true"
    },
